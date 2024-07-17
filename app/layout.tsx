@@ -7,29 +7,28 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL(`https://nick.af`),
   title: {
-    default: "Jason",
+    default: "Kakedashi",
     template: `%s Hello`,
   },
   description:
-    "Hi! I'm Nick, a full stack developer and submariner working on various " +
-    "projects. In my free time I write software, technical articles, and build things.",
+    "Hi! I'm Kakedashi",
   openGraph: {
-    siteName: "Jason",
+    siteName: "Kakedashi",
     type: "website",
     images: [
       {
-        url: "/therock.webp",
+        url: "https://ipfs.io/ipfs/QmeB6HaEreVJhNf4iqs18FyPeNS7vQuowYsX4cUYZSgSBA",
         width: 256,
         height: 256,
-        alt: "therock",
+        alt: "vlsa",
       },
     ],
   },
   twitter: {
-    site: `@jasonaw98`,
-    creator: `@jasonaw98`,
+    site: `@kakedashi_xyz`,
+    creator: `@kakedashi_xyz`,
     card: "summary_large_image",
-    images: ["/therock.webp"],
+    images: ["https://ipfs.io/ipfs/QmeB6HaEreVJhNf4iqs18FyPeNS7vQuowYsX4cUYZSgSBA"],
   },
   category: "technology",
 };
