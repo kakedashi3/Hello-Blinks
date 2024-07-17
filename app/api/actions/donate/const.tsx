@@ -1,7 +1,7 @@
 import { PublicKey, clusterApiUrl } from "@solana/web3.js";
 
 export const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
-  process.env.RECIPIENT ?? "CBrBERuUPkk5kqm7GVWCLPMEmiWHfXJZHVPwRheyAXjz" // donate wallet
+  process.env.RECIPIENT ?? "5QQH3LzT5N1ZgWah6sNcyrpev8NgYFpptMVknBJPc2uL" // donate wallet
 );
 
 export const DEFAULT_SOL_AMOUNT: number = process.env.DEFAULTAMOUNT
@@ -9,7 +9,7 @@ export const DEFAULT_SOL_AMOUNT: number = process.env.DEFAULTAMOUNT
   : 0.1;
 
 export const DEFAULT_RPC =
-  process.env.RPC_URL_MAINNET ?? clusterApiUrl("mainnet-beta");
+  process.env.RPC_URL_MAINNET ?? clusterApiUrl("devnet");
 
 export const DEFAULT_TITLE = process.env.TITLE ?? "Coffee tips";
 
