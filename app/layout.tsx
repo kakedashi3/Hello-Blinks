@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://verylonganimals.com/`),
+  metadataBase: new URL(`https://nick.af`),
   title: {
     default: "Kakedashi",
     template: `%s Hello`,
