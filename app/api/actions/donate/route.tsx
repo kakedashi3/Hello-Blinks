@@ -32,22 +32,22 @@ import {
       ).toString();
   
       const payload: ActionGetResponse = {
-        title: "VeryLongSolanaAnimals Donate Pack",
+        title: "VeryLongSolanaAnimals Donate",
         icon: new URL("https://ipfs.io/ipfs/QmeB6HaEreVJhNf4iqs18FyPeNS7vQuowYsX4cUYZSgSBA", requestUrl.origin).toString(),
-        description: "Buy my VLSA Pack! Thanks for your supporting",
+        description: "Thanks for your supporting",
         label: "Transfer", // this value will be ignored since `links.actions` exists
         links: {
           actions: [
             {
-              label: `Buy for ${amount} SOL`, // button text
+              label: `${amount} SOL`, // button text
               href: `${baseHref}&amount=${amount}`,
             },
             {
-              label: `Buy for ${amount * 5} SOL`, // button text
+              label: `${amount * 5} SOL`, // button text
               href: `${baseHref}&amount=${amount * 5}`,
             },
             {
-              label: `Buy for ${amount * 10} SOL`, // button text
+              label: `${amount * 10} SOL`, // button text
               href: `${baseHref}&amount=${amount * 10}`,
             },
             {
