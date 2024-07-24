@@ -32,7 +32,7 @@ import {
       ).toString();
   
       const payload: ActionGetResponse = {
-        title: "VeryLongSolanaAnimals Donate",
+        title: "Donate to VeryLongSolanaAnimals Project",
         icon: new URL("https://ipfs.io/ipfs/QmeB6HaEreVJhNf4iqs18FyPeNS7vQuowYsX4cUYZSgSBA", requestUrl.origin).toString(),
         description: "Thanks for your supporting",
         label: "Transfer", // this value will be ignored since `links.actions` exists
