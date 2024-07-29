@@ -26,7 +26,7 @@ www.customdomain.com/api/actions/donate
 
 ### 2. Obtain an Action URL
 
-Input the URL used in step 1 into the Dailect site to obtain an action URL.
+Input the URL used in step 1 into the [Dailect site](https://dial.to/) to obtain an action URL.
 
 ### 3. Post to X
 
