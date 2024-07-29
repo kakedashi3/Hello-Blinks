@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SolanaBlinks Tutorial
 
-## Getting Started
+*Note: This project is a fork of the [jasonaw98/solana-blinks](https://github.com/jasonaw98/solana-blinks) repository. The original code and its copyright belong to that project.*
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+SolanaBlinks is an innovative application that enables users to execute transactions directly on X (formerly Twitter). This tutorial will guide you through the process of using SolanaBlinks step by step.
+
+## Prerequisites
+
+- A website with a registered custom domain
+- Access to the Dailect site
+- A browser with the Dailect extension installed
+- An X account
+- A Solana wallet
+
+## How to Use
+
+### 1. Send an API Request
+
+Send an API request from your website with the registered custom domain.
+
+```
+www.customdomain.com/api/actions/donate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Obtain an Action URL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Input the URL used in step 1 into the Dailect site to obtain an action URL.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 3. Post to X
 
-## Learn More
+Using a browser with the Dailect extension installed, post to X.
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Display the User Interface
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After posting, a user interface will be displayed directly on X.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 5. Connect Wallet and Execute Transactions
 
-## Deploy on Vercel
+1. Connect your wallet on the user interface.
+2. Click the selection button to execute transactions, such as transferring funds.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 6. Verify the Transaction
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can verify that funds have been transferred to a pre-registered address.
+
+## Summary
+
+SolanaBlinks significantly streamlines the process of executing blockchain transactions through social media platforms.
+
+## Questions and Support
+
+If you have any questions or need support, please don't hesitate to contact us.
+
+## Copyright and Attribution
+
+This project is derived from the original work at [jasonaw98/solana-blinks](https://github.com/jasonaw98/solana-blinks). All code copyright and intellectual property rights for the original codebase belong to the authors and contributors of that repository. Any modifications or additions in this fork are subject to the license terms of the original project.
+
+---
+
+*Note: This tutorial provides an overview. Actual implementation may require additional steps and security considerations.*
